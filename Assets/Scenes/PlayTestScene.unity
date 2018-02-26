@@ -3337,7 +3337,7 @@ MeshCollider:
   m_GameObject: {fileID: 931760354}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Convex: 0
   m_InflateMesh: 0
@@ -3462,7 +3462,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 939308726}
   m_LocalRotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.29, y: 1.125, z: -5.29}
+  m_LocalPosition: {x: -0.27, y: 1.125, z: -2.94}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 57822692}
@@ -6562,6 +6562,9 @@ GameObject:
   - component: {fileID: 1827141060}
   - component: {fileID: 1827141062}
   - component: {fileID: 1827141061}
+  - component: {fileID: 1827141064}
+  - component: {fileID: 1827141063}
+  - component: {fileID: 1827141065}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -6625,6 +6628,42 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1827141059}
   m_Mesh: {fileID: 4300148, guid: 118b350461f06ae4d831b8b9935c8502, type: 3}
+--- !u!65 &1827141063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827141059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020488098, y: 0.020478813, z: 0.005}
+  m_Center: {x: 0.000000001285116, y: -4.6566123e-10, z: 0.003}
+--- !u!65 &1827141064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827141059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020488098, y: 0.0015, z: 0.005}
+  m_Center: {x: 0.000000001285116, y: -0.0097, z: 0.006}
+--- !u!65 &1827141065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827141059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020488098, y: 0.0015, z: 0.005}
+  m_Center: {x: 0.000000001285116, y: 0.0097, z: 0.006}
 --- !u!1 &1847403007
 GameObject:
   m_ObjectHideFlags: 0
