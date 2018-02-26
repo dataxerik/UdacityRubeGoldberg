@@ -7,7 +7,7 @@ public class Bounce : MonoBehaviour {
 	private const string bounceTagLabel = "Bounce";
 	private Rigidbody rb;
 	public float heightForce;
-	private const float forceMulitplier = 6f;
+	private const float forceMulitplier = 12f;
 
 	// Use this for initialization
 	void Start () {
@@ -38,7 +38,8 @@ public class Bounce : MonoBehaviour {
 			//rb.AddForce (transform.up * forceMulitplier);
 			//rb.AddForce (-1 * rb.velocity * forceMulitplier);
 			//rb.AddForce (transform.up * forceMulitplier, ForceMode.Impulse);
-			rb.AddForce (col.transform.forward * forceMulitplier, ForceMode.Impulse);
+			//rb.AddForce (col.transform.forward * forceMulitplier, ForceMode.Impulse);
+			rb.AddForce (col.transform.up * forceMulitplier, ForceMode.Impulse);
 			/*
 			if (rb.velocity.magnitude > 12f) {
 				print ("Slow down!");
