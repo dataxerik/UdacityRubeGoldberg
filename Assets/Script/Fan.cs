@@ -25,7 +25,7 @@ public class Fan : MonoBehaviour {
 		float otherSA = 4 * Mathf.PI * other.transform.GetComponent<SphereCollider> ().radius;
 		float distance = Vector3.Distance (this.transform.position, other.transform.position);
 		print((1.0f + distance * distance) * otherSA);
-		float appliedForce = 10f / (1.0f + distance * distance) * otherSA;
+		float appliedForce = 1000f / (1.0f + distance * distance) * otherSA;
 		//other.attachedRigidbody.AddForce (new Vector3 (0,10f, 0) * 12);
 		other.attachedRigidbody.AddForce(transform.forward * appliedForce);
 	}
