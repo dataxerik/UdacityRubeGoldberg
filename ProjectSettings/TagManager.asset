@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bounce
+  - Ball
   layers:
   - Default
   - TransparentFX

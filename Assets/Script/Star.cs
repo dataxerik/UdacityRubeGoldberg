@@ -6,12 +6,12 @@ public class Star : MonoBehaviour {
 	public bool isCaptured { get; private set; }
 	private MeshRenderer starRender;
 	private const string ballTag = TagList.ballTag;
+	public delegate void OnBallEnter();
+	public static event OnBallEnter OnEnter;
 
 	// Use this for initialization
 	void Start () {
 		starRender = GetComponent<MeshRenderer> ();
-		StartCoroutine (Wait ());
-
 	}
 	
 	// Update is called once per frame
@@ -30,6 +30,9 @@ public class Star : MonoBehaviour {
 		if(other.CompareTag(ballTag)) {
 			Debug.Log ("Entering a star");
 			Disable ();
+			if (OnEnter != null) {
+				OnEnter ();
+			}
 		}
 	}
 
@@ -39,7 +42,7 @@ public class Star : MonoBehaviour {
 		isCaptured = true;
 	}
 
-	void Enable() {
+	public void Enable() {
 		Debug.Log ("Turning the star on");
 		starRender.enabled = true;
 		isCaptured = false;
