@@ -3,5 +3,5 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class TagList  {
-	public const string ballTag = "Ball";
+	public const string ballTag = "Throwable";
 }
