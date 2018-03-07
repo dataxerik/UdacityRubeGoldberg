@@ -8,6 +8,7 @@ public class HandControllerInput : MonoBehaviour {
 	public SteamVR_Controller.Device device;
 
 	private LineRenderer laser;
+	public LineRenderer laser1;
 	public GameObject teleportAimerObject;
 	public Vector3 teleportLocation;
 	public GameObject player;
@@ -35,12 +36,16 @@ public class HandControllerInput : MonoBehaviour {
 			if (Physics.Raycast (transform.position, transform.forward, out hit, 15, laserMask)) {
 				teleportLocation = hit.point;
 				laser.SetPosition (1, teleportLocation);
+				laser1.SetPosition (0, laser.GetPosition(1));
+				print ("laser at 1 is " + laser.GetPosition (1));
+				print ("laser1 at 0 is " + laser.GetPosition (0));
 				//aimer position
 				teleportAimerObject.transform.position = new Vector3 (teleportLocation.x, teleportLocation.y + yNudgeAmt, teleportLocation.z);
 			} else {
 				teleportLocation = new Vector3 (transform.forward.x * 15 + transform.position.x, transform.forward.y * 15 + transform.forward.y, transform.forward.z * 15 + transform.forward.z);
 				RaycastHit groundRay;
 				if (Physics.Raycast (teleportLocation, -Vector3.up, out groundRay, 17, laserMask)) {
+					laser1.SetPosition (1, groundRay.point);
 					teleportLocation = new Vector3 (transform.forward.x * 15 + transform.position.x, transform.forward.y * 15 + transform.forward.y, transform.forward.z * 15 + transform.forward.z);
 				}
 				laser.SetPosition (1, transform.forward * 15 + transform.position);
