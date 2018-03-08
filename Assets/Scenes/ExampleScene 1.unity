@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 23385515}
   - component: {fileID: 23385517}
   - component: {fileID: 23385516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,39 +187,134 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 23385514}
   m_Mesh: {fileID: 4300104, guid: 118b350461f06ae4d831b8b9935c8502, type: 3}
---- !u!21 &26861746
-Material:
-  serializedVersion: 6
+--- !u!43 &27884000
+Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.15, y: 0, z: 0.9}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000803f0ad7233c000040bf000000000000803f0000803f0000803f0000000000000000000080bf0ad7233c000040bf000000000000803f0000803f0000803f0000803f00000000000080bf0ad7233c0000403f000000000000803f0000803f0000803f00000000000000000000803f0ad7233c0000403f000000000000803f0000803f0000803f0000803f000000003333933f0ad7233c666666bf000000000000803f0000803f00000000000000000000803f333393bf0ad7233c666666bf000000000000803f0000803f000000000000803f0000803f333393bf0ad7233c6666663f000000000000803f0000803f00000000000000000000803f3333933f0ad7233c6666663f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.15, y: 0, z: 0.9}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &37958664
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +384,7 @@ GameObject:
   - component: {fileID: 58335900}
   - component: {fileID: 58335902}
   - component: {fileID: 58335901}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +457,7 @@ GameObject:
   - component: {fileID: 63763665}
   - component: {fileID: 63763667}
   - component: {fileID: 63763666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tools_Cabinet_B.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +530,7 @@ GameObject:
   - component: {fileID: 99747315}
   - component: {fileID: 99747317}
   - component: {fileID: 99747316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +748,7 @@ GameObject:
   - component: {fileID: 168376331}
   - component: {fileID: 168376333}
   - component: {fileID: 168376332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Industrial_Conveyor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +821,7 @@ GameObject:
   - component: {fileID: 175560547}
   - component: {fileID: 175560549}
   - component: {fileID: 175560548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +913,7 @@ GameObject:
   - component: {fileID: 186489938}
   - component: {fileID: 186489940}
   - component: {fileID: 186489939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tools_Cabinet_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +1051,7 @@ GameObject:
   - component: {fileID: 198830051}
   - component: {fileID: 198830053}
   - component: {fileID: 198830052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1029,7 +1124,7 @@ GameObject:
   - component: {fileID: 251910787}
   - component: {fileID: 251910789}
   - component: {fileID: 251910788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1197,7 @@ GameObject:
   - component: {fileID: 259068846}
   - component: {fileID: 259068848}
   - component: {fileID: 259068847}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1270,7 @@ GameObject:
   - component: {fileID: 277345574}
   - component: {fileID: 277345576}
   - component: {fileID: 277345575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Industrial_Conveyor.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1343,7 @@ GameObject:
   - component: {fileID: 298225387}
   - component: {fileID: 298225389}
   - component: {fileID: 298225388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1321,7 +1416,7 @@ GameObject:
   - component: {fileID: 311350190}
   - component: {fileID: 311350192}
   - component: {fileID: 311350191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1426,11 +1521,11 @@ Prefab:
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1769179270}
+      objectReference: {fileID: 27884000}
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 26861746}
+      objectReference: {fileID: 726690659}
     - target: {fileID: 11489174, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: size
       value: 3
@@ -1614,7 +1709,7 @@ GameObject:
   - component: {fileID: 383655646}
   - component: {fileID: 383655648}
   - component: {fileID: 383655647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Industrial_Shelves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1687,7 +1782,7 @@ GameObject:
   - component: {fileID: 434661277}
   - component: {fileID: 434661279}
   - component: {fileID: 434661278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1760,7 +1855,7 @@ GameObject:
   - component: {fileID: 435385328}
   - component: {fileID: 435385330}
   - component: {fileID: 435385329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1833,7 +1928,7 @@ GameObject:
   - component: {fileID: 465406087}
   - component: {fileID: 465406089}
   - component: {fileID: 465406088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1906,7 +2001,7 @@ GameObject:
   - component: {fileID: 534759805}
   - component: {fileID: 534759807}
   - component: {fileID: 534759806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2008,6 +2103,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 27
       objectReference: {fileID: 0}
+    - target: {fileID: 1722156980953246, guid: 6ebd3e42657f6664f8fc74facdffc479, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ebd3e42657f6664f8fc74facdffc479, type: 2}
   m_IsPrefabParent: 0
@@ -2021,7 +2120,7 @@ GameObject:
   - component: {fileID: 551221152}
   - component: {fileID: 551221154}
   - component: {fileID: 551221153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Metal_Plank_WE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2094,7 +2193,7 @@ GameObject:
   - component: {fileID: 557097951}
   - component: {fileID: 557097953}
   - component: {fileID: 557097952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2167,7 +2266,7 @@ GameObject:
   - component: {fileID: 589019085}
   - component: {fileID: 589019087}
   - component: {fileID: 589019086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2301,7 +2400,7 @@ GameObject:
   - component: {fileID: 639728701}
   - component: {fileID: 639728703}
   - component: {fileID: 639728702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2374,7 +2473,7 @@ GameObject:
   - component: {fileID: 647947565}
   - component: {fileID: 647947567}
   - component: {fileID: 647947566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2447,7 +2546,7 @@ GameObject:
   - component: {fileID: 673703211}
   - component: {fileID: 673703213}
   - component: {fileID: 673703212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2619,7 @@ GameObject:
   - component: {fileID: 688507409}
   - component: {fileID: 688507411}
   - component: {fileID: 688507410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2593,7 +2692,7 @@ GameObject:
   - component: {fileID: 693447803}
   - component: {fileID: 693447805}
   - component: {fileID: 693447804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2656,6 +2755,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 693447802}
   m_Mesh: {fileID: 4300018, guid: 118b350461f06ae4d831b8b9935c8502, type: 3}
+--- !u!21 &726690659
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &738826534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2666,7 +2798,7 @@ GameObject:
   - component: {fileID: 738826535}
   - component: {fileID: 738826537}
   - component: {fileID: 738826536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,7 +2936,7 @@ GameObject:
   - component: {fileID: 756587012}
   - component: {fileID: 756587014}
   - component: {fileID: 756587013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2882,7 +3014,7 @@ GameObject:
   - component: {fileID: 824922018}
   - component: {fileID: 824922020}
   - component: {fileID: 824922019}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2955,7 +3087,7 @@ GameObject:
   - component: {fileID: 825784465}
   - component: {fileID: 825784467}
   - component: {fileID: 825784466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3028,7 +3160,7 @@ GameObject:
   - component: {fileID: 848065138}
   - component: {fileID: 848065140}
   - component: {fileID: 848065139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3151,7 +3283,7 @@ GameObject:
   - component: {fileID: 851785536}
   - component: {fileID: 851785538}
   - component: {fileID: 851785537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3224,7 +3356,7 @@ GameObject:
   - component: {fileID: 890342142}
   - component: {fileID: 890342144}
   - component: {fileID: 890342143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Industrial_Conveyor.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3297,7 +3429,7 @@ GameObject:
   - component: {fileID: 890423281}
   - component: {fileID: 890423283}
   - component: {fileID: 890423282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3370,7 +3502,7 @@ GameObject:
   - component: {fileID: 911468898}
   - component: {fileID: 911468900}
   - component: {fileID: 911468899}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3575,7 +3707,7 @@ GameObject:
   - component: {fileID: 937581089}
   - component: {fileID: 937581091}
   - component: {fileID: 937581090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3721,7 +3853,7 @@ GameObject:
   - component: {fileID: 963286569}
   - component: {fileID: 963286571}
   - component: {fileID: 963286570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trampoline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3794,7 +3926,7 @@ GameObject:
   - component: {fileID: 966751017}
   - component: {fileID: 966751019}
   - component: {fileID: 966751018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3867,7 +3999,7 @@ GameObject:
   - component: {fileID: 968071438}
   - component: {fileID: 968071440}
   - component: {fileID: 968071439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Factory_Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3940,7 +4072,7 @@ GameObject:
   - component: {fileID: 978519049}
   - component: {fileID: 978519051}
   - component: {fileID: 978519050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4013,7 +4145,7 @@ GameObject:
   - component: {fileID: 1020384860}
   - component: {fileID: 1020384862}
   - component: {fileID: 1020384861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4086,7 +4218,7 @@ GameObject:
   - component: {fileID: 1021774664}
   - component: {fileID: 1021774666}
   - component: {fileID: 1021774665}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4159,7 +4291,7 @@ GameObject:
   - component: {fileID: 1028494170}
   - component: {fileID: 1028494172}
   - component: {fileID: 1028494171}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Plank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4232,7 +4364,7 @@ GameObject:
   - component: {fileID: 1034007967}
   - component: {fileID: 1034007969}
   - component: {fileID: 1034007968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4305,7 +4437,7 @@ GameObject:
   - component: {fileID: 1065119501}
   - component: {fileID: 1065119503}
   - component: {fileID: 1065119502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tools_Cabinet_A.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4560,7 +4692,7 @@ GameObject:
   - component: {fileID: 1130953066}
   - component: {fileID: 1130953068}
   - component: {fileID: 1130953067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4633,7 +4765,7 @@ GameObject:
   - component: {fileID: 1219628242}
   - component: {fileID: 1219628244}
   - component: {fileID: 1219628243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4706,7 +4838,7 @@ GameObject:
   - component: {fileID: 1238248615}
   - component: {fileID: 1238248617}
   - component: {fileID: 1238248616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4779,7 +4911,7 @@ GameObject:
   - component: {fileID: 1249369498}
   - component: {fileID: 1249369500}
   - component: {fileID: 1249369499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,7 +4984,7 @@ GameObject:
   - component: {fileID: 1250070954}
   - component: {fileID: 1250070956}
   - component: {fileID: 1250070955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4990,7 +5122,7 @@ GameObject:
   - component: {fileID: 1289160252}
   - component: {fileID: 1289160254}
   - component: {fileID: 1289160253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5128,7 +5260,7 @@ GameObject:
   - component: {fileID: 1303963184}
   - component: {fileID: 1303963186}
   - component: {fileID: 1303963185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5201,7 +5333,7 @@ GameObject:
   - component: {fileID: 1318135078}
   - component: {fileID: 1318135080}
   - component: {fileID: 1318135079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5274,7 +5406,7 @@ GameObject:
   - component: {fileID: 1382329236}
   - component: {fileID: 1382329238}
   - component: {fileID: 1382329237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wooden_Base.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5347,7 +5479,7 @@ GameObject:
   - component: {fileID: 1388996780}
   - component: {fileID: 1388996782}
   - component: {fileID: 1388996781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tools_Cabinet_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5436,7 +5568,7 @@ GameObject:
   - component: {fileID: 1429786232}
   - component: {fileID: 1429786234}
   - component: {fileID: 1429786233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5509,7 +5641,7 @@ GameObject:
   - component: {fileID: 1436809272}
   - component: {fileID: 1436809274}
   - component: {fileID: 1436809273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5582,7 +5714,7 @@ GameObject:
   - component: {fileID: 1440602659}
   - component: {fileID: 1440602661}
   - component: {fileID: 1440602660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5655,7 +5787,7 @@ GameObject:
   - component: {fileID: 1520518152}
   - component: {fileID: 1520518154}
   - component: {fileID: 1520518153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5910,7 +6042,7 @@ GameObject:
   - component: {fileID: 1570584852}
   - component: {fileID: 1570584854}
   - component: {fileID: 1570584853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tools_Cabinet_B.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6012,6 +6144,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 56
       objectReference: {fileID: 0}
+    - target: {fileID: 1118762114681340, guid: fa379a5eb9835fc43bc9bd44eaf78a12, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa379a5eb9835fc43bc9bd44eaf78a12, type: 2}
   m_IsPrefabParent: 0
@@ -6025,7 +6161,7 @@ GameObject:
   - component: {fileID: 1632598885}
   - component: {fileID: 1632598887}
   - component: {fileID: 1632598886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ladder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6098,7 +6234,7 @@ GameObject:
   - component: {fileID: 1694032530}
   - component: {fileID: 1694032532}
   - component: {fileID: 1694032531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Machine.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6236,7 +6372,7 @@ GameObject:
   - component: {fileID: 1704073096}
   - component: {fileID: 1704073098}
   - component: {fileID: 1704073097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6309,7 +6445,7 @@ GameObject:
   - component: {fileID: 1717541260}
   - component: {fileID: 1717541262}
   - component: {fileID: 1717541261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6382,7 +6518,7 @@ GameObject:
   - component: {fileID: 1724929527}
   - component: {fileID: 1724929529}
   - component: {fileID: 1724929528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,134 +6736,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!43 &1769179270
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.15, y: 0, z: 0.9}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000803f0ad7233c000040bf000000000000803f0000803f0000803f0000000000000000000080bf0ad7233c000040bf000000000000803f0000803f0000803f0000803f00000000000080bf0ad7233c0000403f000000000000803f0000803f0000803f00000000000000000000803f0ad7233c0000403f000000000000803f0000803f0000803f0000803f000000003333933f0ad7233c666666bf000000000000803f0000803f00000000000000000000803f333393bf0ad7233c666666bf000000000000803f0000803f000000000000803f0000803f333393bf0ad7233c6666663f000000000000803f0000803f00000000000000000000803f3333933f0ad7233c6666663f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.15, y: 0, z: 0.9}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &1770483305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,7 +6811,7 @@ GameObject:
   - component: {fileID: 1773375961}
   - component: {fileID: 1773375963}
   - component: {fileID: 1773375962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6876,7 +6884,7 @@ GameObject:
   - component: {fileID: 1788609981}
   - component: {fileID: 1788609983}
   - component: {fileID: 1788609982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Elevated_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6949,7 +6957,7 @@ GameObject:
   - component: {fileID: 1800270435}
   - component: {fileID: 1800270437}
   - component: {fileID: 1800270436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7064,7 +7072,7 @@ GameObject:
   - component: {fileID: 1815313331}
   - component: {fileID: 1815313333}
   - component: {fileID: 1815313332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7137,7 +7145,7 @@ GameObject:
   - component: {fileID: 1816651617}
   - component: {fileID: 1816651619}
   - component: {fileID: 1816651618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7210,7 +7218,7 @@ GameObject:
   - component: {fileID: 1847403008}
   - component: {fileID: 1847403010}
   - component: {fileID: 1847403009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small_Box.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7283,7 +7291,7 @@ GameObject:
   - component: {fileID: 1853258266}
   - component: {fileID: 1853258268}
   - component: {fileID: 1853258267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robotic_Arm.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7361,7 +7369,7 @@ GameObject:
   - component: {fileID: 1873370668}
   - component: {fileID: 1873370670}
   - component: {fileID: 1873370669}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big_Box.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7432,7 +7440,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1919606721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StaticEnvironment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
