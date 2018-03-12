@@ -8,7 +8,6 @@ public class HandControllerInput : MonoBehaviour {
 	public SteamVR_Controller.Device device;
 
 	private LineRenderer laser;
-	public LineRenderer laser1;
 	public GameObject teleportAimerObject;
 	public Vector3 teleportLocation;
 	public GameObject player;
@@ -24,6 +23,7 @@ public class HandControllerInput : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		device = SteamVR_Controller.Input ((int)trackedObj.index);
+		Vector3 Location;
 
 		if (device.GetPress (SteamVR_Controller.ButtonMask.Trigger)) {
 			laser.gameObject.SetActive (true);
@@ -32,20 +32,19 @@ public class HandControllerInput : MonoBehaviour {
 			laser.SetPosition (0, gameObject.transform.position);
 
 			RaycastHit hit;
-
-			if (Physics.Raycast (transform.position, transform.forward, out hit, 15, laserMask)) {
+			if (Physics.Raycast (transform.position, transform.forward, out hit, 15f, laserMask)) {
 				teleportLocation = hit.point;
 				laser.SetPosition (1, teleportLocation);
-				laser1.SetPosition (0, laser.GetPosition(1));
-				print ("laser at 1 is " + laser.GetPosition (1));
-				print ("laser1 at 0 is " + laser.GetPosition (0));
 				//aimer position
 				teleportAimerObject.transform.position = new Vector3 (teleportLocation.x, teleportLocation.y + yNudgeAmt, teleportLocation.z);
+				if(hit.collider.tag.Equals("Static")) {
+					teleportLocation = player.transform.position;
+				}
 			} else {
-				teleportLocation = new Vector3 (transform.forward.x * 15 + transform.position.x, transform.forward.y * 15 + transform.forward.y, transform.forward.z * 15 + transform.forward.z);
+				print ("in the else of raycast");
+				Location = new Vector3 (transform.forward.x * 15 + transform.position.x, transform.forward.y * 15 + transform.forward.y, transform.forward.z * 15 + transform.forward.z);
 				RaycastHit groundRay;
-				if (Physics.Raycast (teleportLocation, -Vector3.up, out groundRay, 17, laserMask)) {
-					laser1.SetPosition (1, groundRay.point);
+				if (Physics.Raycast (Location, -Vector3.up, out groundRay, 17, laserMask)) {
 					teleportLocation = new Vector3 (transform.forward.x * 15 + transform.position.x, groundRay.point.y, transform.forward.z * 15 + transform.forward.z);
 					//teleportLocation = new Vector3 (teleportLocation.x, teleportLocation.y + yNudgeAmt, teleportLocation.z);
 				}

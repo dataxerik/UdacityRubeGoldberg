@@ -84,7 +84,6 @@ public class HandInteraction : MonoBehaviour {
 
     void OnTriggerStay(Collider coli)
 	{
-        print("Trigger Activate");
 		if (coli.gameObject.CompareTag (throwableTagLabel)) {
             print("Hi");
 			if (device.GetPressUp (SteamVR_Controller.ButtonMask.Trigger)) {
