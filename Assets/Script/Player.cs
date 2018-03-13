@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	public bool isPlayerOnPlatform { get; private set; }
+	public bool isPlayerOnPlatform { get; set; }
 	public StarManager startManager;
 
 	// Use this for initialization
@@ -16,5 +16,8 @@ public class Player : MonoBehaviour {
 	void Update () {
 	}
 
-
+	void OnCollisionEnter(){
+		
+	}
+		
 }

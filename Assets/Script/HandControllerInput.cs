@@ -37,7 +37,7 @@ public class HandControllerInput : MonoBehaviour {
 				laser.SetPosition (1, teleportLocation);
 				//aimer position
 				teleportAimerObject.transform.position = new Vector3 (teleportLocation.x, teleportLocation.y + yNudgeAmt, teleportLocation.z);
-				if(hit.collider.tag.Equals("Static")) {
+				if(hit.collider.tag.Equals("Obstacle")) {
 					teleportLocation = player.transform.position;
 				}
 			} else {
