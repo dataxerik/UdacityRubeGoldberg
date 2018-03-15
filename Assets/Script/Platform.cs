@@ -11,6 +11,9 @@ public class Platform : MonoBehaviour {
 		print (colli.gameObject);
 		if(colli.gameObject.tag.Equals("Player")) {
 			print("The player is on top of me");
+			player.isPlayerOnPlatform = false;
 		}
 	}
+
+	void OnTrigger
 }
